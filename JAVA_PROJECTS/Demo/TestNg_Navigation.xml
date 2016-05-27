@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Demo_Netthandelen">
+<parameter name="Environment" value="STAGE"/>
+<!--<parameter name="sHub" value="10.78.4.12"/>-->
+ <listeners>
+    <listener class-name="Reporter" />
+  </listeners>
+<listeners>
+     <!-- <listener class-name="commonfunctions.ScreenShotOnTestFailure" />
+      <listener class-name="srm_Listeners.DisableKnownTestFailures" />-->
+</listeners>
+    <test name="netthandelen_Demo">
+    <parameter name="Browser" value="firefox"/>
+    <classes>   
+ <class name = "netthandelen_Variables.EnvironmentVariables" />
+ <class name = "netthandelen_TestFunctionality.Registration" />
+      </classes>
+    </test>
+</suite>

@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Demo_Netthandelen</th></tr><tr><td><a href="#t0">netthandelen_Demo</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">77,527</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Demo_Netthandelen</th></tr></tbody><tbody id="t0"><tr><th colspan="4">netthandelen_Demo &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">netthandelen_TestFunctionality.Registration</td><td><a href="#m0">RegistrationPage</a></td><td rowspan="1">1464332401713</td><td rowspan="1">27210</td></tr></tbody></table><h2>netthandelen_Demo</h2><h3 id="m0">netthandelen_TestFunctionality.Registration#RegistrationPage</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>public void netthandelen_TestFunctionality.Registration.RegistrationPage(java.lang.reflect.Method) throws java.lang.InterruptedException,java.lang.ClassNotFoundException,java.sql.SQLException</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;EIL-IT-990-09&apos;, ip: &apos;10.11.17.84&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: EventFiringWebDriver
+Session ID: aaf6ee02-0a1e-47d6-a9cf-b0957eeb79a3
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=35.0.1}]
+Command duration or timeout: 17.17 seconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
+System info: host: &apos;EIL-IT-990-09&apos;, ip: &apos;10.11.17.84&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+*** Element info: {Using=xpath, value=//img[@src=&apos;//s3.amazonaws.com/static.barilliance.com/img/common/dialog_close.png&apos;]}
+Session ID: c637f100-7860-410f-b7d9-1af40c76da45
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, acceptSslCerts=true, browserName=firefox, rotatable=false, locationContextEnabled=true, webdriver.remote.sessionid=c637f100-7860-410f-b7d9-1af40c76da45, version=35.0.1, databaseEnabled=true, cssSelectorsEnabled=true, handlesAlerts=true, webStorageEnabled=true, nativeEvents=false, applicationCacheEnabled=true, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at netthandelen_TestFunctionality.Registration.RegistrationPage(Registration.java:217)
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;EIL-IT-990-09&apos;, ip: &apos;10.11.17.84&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: EventFiringWebDriver
+Session ID: aaf6ee02-0a1e-47d6-a9cf-b0957eeb79a3
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=35.0.1}]
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
+System info: host: &apos;EIL-IT-990-09&apos;, ip: &apos;10.11.17.84&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: unknown
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

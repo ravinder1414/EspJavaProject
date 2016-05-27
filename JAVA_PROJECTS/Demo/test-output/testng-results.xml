@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EIL-IT-990-09', ip: '10.11.17.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Driver info: driver.version: EventFiringWebDriver
+Session ID: aaf6ee02-0a1e-47d6-a9cf-b0957eeb79a3
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=35.0.1}]
+Command duration or timeout: 2.13 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'EIL-IT-990-09', ip: '10.11.17.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: c637f100-7860-410f-b7d9-1af40c76da45
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, acceptSslCerts=true, browserName=firefox, rotatable=false, locationContextEnabled=true, webdriver.remote.sessionid=c637f100-7860-410f-b7d9-1af40c76da45, version=35.0.1, databaseEnabled=true, cssSelectorsEnabled=true, handlesAlerts=true, webStorageEnabled=true, nativeEvents=false, applicationCacheEnabled=true, takesScreenshot=true}]]]>
+    </line>
+  </reporter-output>
+  <suite name="Demo_Netthandelen" duration-ms="77527" started-at="2016-05-27T06:59:13Z" finished-at="2016-05-27T07:00:31Z">
+    <groups>
+    </groups>
+    <test name="netthandelen_Demo" duration-ms="77527" started-at="2016-05-27T06:59:13Z" finished-at="2016-05-27T07:00:31Z">
+      <class name="netthandelen_TestFunctionality.Registration">
+        <test-method status="PASS" signature="BeforeNavigation(java.lang.String)[pri:0, instance:netthandelen_TestFunctionality.Registration@6caa5123]" name="BeforeNavigation" is-config="true" duration-ms="47858" started-at="2016-05-27T12:29:13Z" finished-at="2016-05-27T12:30:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeNavigation -->
+        <test-method status="FAIL" signature="RegistrationPage(java.lang.reflect.Method)[pri:0, instance:netthandelen_TestFunctionality.Registration@6caa5123]" name="RegistrationPage" duration-ms="27210" started-at="2016-05-27T12:30:01Z" finished-at="2016-05-27T12:30:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void netthandelen_TestFunctionality.Registration.RegistrationPage(java.lang.reflect.Method) throws java.lang.InterruptedException,java.lang.ClassNotFoundException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EIL-IT-990-09', ip: '10.11.17.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Driver info: driver.version: EventFiringWebDriver
+Session ID: aaf6ee02-0a1e-47d6-a9cf-b0957eeb79a3
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=35.0.1}]
+Command duration or timeout: 17.17 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'EIL-IT-990-09', ip: '10.11.17.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+*** Element info: {Using=xpath, value=//img[@src='//s3.amazonaws.com/static.barilliance.com/img/common/dialog_close.png']}
+Session ID: c637f100-7860-410f-b7d9-1af40c76da45
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, acceptSslCerts=true, browserName=firefox, rotatable=false, locationContextEnabled=true, webdriver.remote.sessionid=c637f100-7860-410f-b7d9-1af40c76da45, version=35.0.1, databaseEnabled=true, cssSelectorsEnabled=true, handlesAlerts=true, webStorageEnabled=true, nativeEvents=false, applicationCacheEnabled=true, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EIL-IT-990-09', ip: '10.11.17.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Driver info: driver.version: EventFiringWebDriver
+Session ID: aaf6ee02-0a1e-47d6-a9cf-b0957eeb79a3
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=35.0.1}]
+Command duration or timeout: 17.17 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'EIL-IT-990-09', ip: '10.11.17.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+*** Element info: {Using=xpath, value=//img[@src='//s3.amazonaws.com/static.barilliance.com/img/common/dialog_close.png']}
+Session ID: c637f100-7860-410f-b7d9-1af40c76da45
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, acceptSslCerts=true, browserName=firefox, rotatable=false, locationContextEnabled=true, webdriver.remote.sessionid=c637f100-7860-410f-b7d9-1af40c76da45, version=35.0.1, databaseEnabled=true, cssSelectorsEnabled=true, handlesAlerts=true, webStorageEnabled=true, nativeEvents=false, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at netthandelen_TestFunctionality.Registration.RegistrationPage(Registration.java:217)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EIL-IT-990-09', ip: '10.11.17.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Driver info: driver.version: EventFiringWebDriver
+Session ID: aaf6ee02-0a1e-47d6-a9cf-b0957eeb79a3
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=35.0.1}]
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'EIL-IT-990-09', ip: '10.11.17.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Driver info: driver.version: unknown
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationPage -->
+        <test-method status="PASS" signature="AfterNavigation()[pri:0, instance:netthandelen_TestFunctionality.Registration@6caa5123]" name="AfterNavigation" is-config="true" duration-ms="2131" started-at="2016-05-27T12:30:29Z" finished-at="2016-05-27T12:30:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EIL-IT-990-09', ip: '10.11.17.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Driver info: driver.version: EventFiringWebDriver
+Session ID: aaf6ee02-0a1e-47d6-a9cf-b0957eeb79a3
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=35.0.1}]
+Command duration or timeout: 2.13 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'EIL-IT-990-09', ip: '10.11.17.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: c637f100-7860-410f-b7d9-1af40c76da45
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, acceptSslCerts=true, browserName=firefox, rotatable=false, locationContextEnabled=true, webdriver.remote.sessionid=c637f100-7860-410f-b7d9-1af40c76da45, version=35.0.1, databaseEnabled=true, cssSelectorsEnabled=true, handlesAlerts=true, webStorageEnabled=true, nativeEvents=false, applicationCacheEnabled=true, takesScreenshot=true}]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AfterNavigation -->
+      </class> <!-- netthandelen_TestFunctionality.Registration -->
+      <class name="netthandelen_Variables.EnvironmentVariables">
+        <test-method status="PASS" signature="BeforeSuite_Orion3(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:netthandelen_Variables.EnvironmentVariables@3ed854d8]" name="BeforeSuite_Orion3" is-config="true" duration-ms="17" started-at="2016-05-27T12:29:13Z" finished-at="2016-05-27T12:29:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STAGE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[localhost]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4444]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@61415858]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite_Orion3 -->
+        <test-method status="PASS" signature="startTesting()[pri:0, instance:netthandelen_TestFunctionality.Registration@6caa5123]" name="startTesting" is-config="true" duration-ms="28" started-at="2016-05-27T12:29:13Z" finished-at="2016-05-27T12:29:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTesting -->
+      </class> <!-- netthandelen_Variables.EnvironmentVariables -->
+    </test> <!-- netthandelen_Demo -->
+  </suite> <!-- Demo_Netthandelen -->
+</testng-results>

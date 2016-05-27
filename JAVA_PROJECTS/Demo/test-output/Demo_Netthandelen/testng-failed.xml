@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Demo_Netthandelen]">
+  <parameter name="Environment" value="STAGE"/>
+  <parameter name="Browser" value="firefox"/>
+  <test name="netthandelen_Demo(failed)">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="netthandelen_TestFunctionality.Registration">
+        <methods>
+          <include name="RegistrationPage" invocation-numbers="0"/>
+          <include name="startTesting"/>
+          <include name="BeforeNavigation"/>
+          <include name="AfterNavigation"/>
+        </methods>
+      </class> <!-- netthandelen_TestFunctionality.Registration -->
+      <class name="netthandelen_Variables.EnvironmentVariables">
+        <methods>
+          <include name="BeforeSuite_Orion3"/>
+        </methods>
+      </class> <!-- netthandelen_Variables.EnvironmentVariables -->
+    </classes>
+  </test> <!-- netthandelen_Demo(failed) -->
+</suite> <!-- Failed suite [Demo_Netthandelen] -->

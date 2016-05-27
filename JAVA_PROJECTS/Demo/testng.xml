@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Impellam">
+
+
+<test name="Testcases1">
+
+    <classes>
+        <class name="com.selenium.hybrid.testcases.Requirement" ></class>
+        
+    </classes>
+ 
+</test>
+ 
+ <test name="Testcases2">
+
+    <classes>
+       <class name="com.selenium.hybrid.testcases.Testcase2" ></class>  
+        
+    </classes>
+ 
+</test>
+
+
+</suite>

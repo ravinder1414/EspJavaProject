@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Impellam]">
+  <test name="Testcases1(failed)">
+    <classes>
+      <class name="com.selenium.hybrid.testcases.Testcase2">
+        <methods>
+          <include name="BeforeTesting"/>
+        </methods>
+      </class> <!-- com.selenium.hybrid.testcases.Testcase2 -->
+      <class name="com.selenium.hybrid.testcases.Requirement">
+        <methods>
+          <include name="endScript"/>
+          <include name="LoginTest"/>
+          <include name="startTesting"/>
+        </methods>
+      </class> <!-- com.selenium.hybrid.testcases.Requirement -->
+    </classes>
+  </test> <!-- Testcases1(failed) -->
+  <test name="Testcases2(failed)">
+    <classes>
+      <class name="com.selenium.hybrid.testcases.Requirement">
+        <methods>
+          <include name="endScript"/>
+          <include name="startTesting"/>
+        </methods>
+      </class> <!-- com.selenium.hybrid.testcases.Requirement -->
+      <class name="com.selenium.hybrid.testcases.Testcase2">
+        <methods>
+          <include name="Menu"/>
+          <include name="support"/>
+          <include name="Panels"/>
+          <include name="Home"/>
+          <include name="BeforeTesting"/>
+          <include name="ToDo"/>
+        </methods>
+      </class> <!-- com.selenium.hybrid.testcases.Testcase2 -->
+    </classes>
+  </test> <!-- Testcases2(failed) -->
+</suite> <!-- Failed suite [Impellam] -->
